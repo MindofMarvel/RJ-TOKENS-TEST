@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RJ Automation Test Suite">
+  <test name="RJ Application Test Cases">
+    <classes>
+      <class name="com.rj.prod.testcases.LoginPageTest"/>
+      <class name="com.rj.prod.testcases.HomePageTest"/>
+      <class name="com.rj.prod.testcases.DataPageTest"/>
+    </classes>
+  </test>
+</suite>

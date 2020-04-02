@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="rjAutomation">
+<!-- <test name="rjTest"> -->
+   <test thread-count="0" name="Test">
+    <classes>
+      <class name="com.rj.prod.testcases.SAPageTest.LoginPageTest." />
+       <class name="com.rj.prod.testcases.LoginPageTest" />
+      <class name="com.rj.prod.testcases.HomePageTest" />
+     <!-- <class name="com.rj.prod.testcases.DataPageTest"/>
+      <class name="com.rj.prod.testcases.AdminPageTest"/>
+      <class name="com.rj.prod.testcases.LoadTest"/>
+     <class name="com.rj.prod.testcases.TransporterPageTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
